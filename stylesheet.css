@@ -1,6 +1,7 @@
 h2 {
     color:rgb(15, 93, 119);
     font-size: 1.5em;
+    font-weight: normal;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
@@ -16,4 +17,7 @@ body {
 }
 p {
     font-family: 'Times New Roman', Times, serif;
+}
+h6 {
+    font-weight: bold;
 }
