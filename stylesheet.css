@@ -1,11 +1,13 @@
 h2 {
     color:rgb(15, 93, 119);
+    font-size: 1.5em;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 h1 {
     color:rgb(77, 12, 83);
     text-align:center;
+    font-size: 2.8em;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
