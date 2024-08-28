@@ -4,5 +4,9 @@ h2 {
 
 h1 {
     color:rgb(77, 12, 83);
-    text-align:center
+    text-align:center;
+}
+
+body {
+    background-color: seashell;
 }
