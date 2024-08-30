@@ -24,3 +24,10 @@ p {
 h6 {
     font-weight: bold;
 }
+#moreInfo {
+    font-weight: bold;
+}
+#catAppreciation {
+    font-style: italic;
+}
+
