@@ -24,7 +24,7 @@ p {
 h6 {
     font-weight: bold;
 }
-footer {
+section {
     font-weight: bold;
 }
 .catAppreciation {
@@ -37,5 +37,15 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header {
+    font-style: italic;
+}
+h5 {
+    color:rgb(40, 62, 110);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h6 {
+    color:rgb(40, 62, 110);
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
