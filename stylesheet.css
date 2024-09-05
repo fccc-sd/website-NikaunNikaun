@@ -23,10 +23,10 @@ p {
 }
 h6 {
     font-weight: bold;
-    font-style: italic;
-    color: rgb(40, 62, 110);
 }
-
+section {
+    font-weight: bold;
+}
 .catAppreciation {
     font-style: italic;
 }
@@ -36,19 +36,18 @@ h4 {
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
 header {
     font-style: italic;
-    background-color: azure;
+    background-color:azure 
 }
-img {
-    vertical-align: middle;
-}
-section {
-    font-weight: bold;
+h5 {
     color:rgb(40, 62, 110);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h6 {
+    color:rgb(40, 62, 110);
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
 footer {
