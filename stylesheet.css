@@ -23,6 +23,8 @@ p {
 }
 h6 {
     font-weight: bold;
+    font-style: italic;
+    color: rgb(40, 62, 110);
 }
 footer {
     font-weight: bold;
