@@ -21,12 +21,7 @@ body {
 p {
     font: 1em 'Times New Roman', Times, serif;
 }
-h6 {
-    font-weight: bold;
-}
-section {
-    font-weight: bold;
-}
+
 .catAppreciation {
     font-style: italic;
 }
@@ -40,22 +35,14 @@ header {
     font-style: italic;
     background-color:azure 
 }
-h5 {
+h5, h6 {
     color:rgb(40, 62, 110);
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-}
-h6 {
-    color:rgb(40, 62, 110);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-}
-footer {
     font-weight: bold;
-    color:rgb(40, 62, 110);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
 }
+
+
 img {
     vertical-align: middle;
 }
