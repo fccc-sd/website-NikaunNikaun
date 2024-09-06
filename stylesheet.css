@@ -44,9 +44,37 @@ h5, h6 {
 
 
 img {
-    vertical-align: middle;
+    vertical-align:text-bottom
 }
 ul {
     list-style-image:url(icons8-wave-48.png);
     
+}
+nav {
+   line-height: 2em; 
+   background-color: rgb(45, 201, 201);
+   display: block
+}
+nav li {
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+    font-size: 1.6em;
+    padding-left: 17em
+    
+}
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav a:active {
+    color:red;
+    text-decoration: underline;
 }
