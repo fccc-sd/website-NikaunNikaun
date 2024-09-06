@@ -60,6 +60,6 @@ img {
     vertical-align: middle;
 }
 ul {
-    list-style-type: square;
+    list-style-image:url(icons8-wave-48.png);
     
 }
