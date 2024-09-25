@@ -78,3 +78,11 @@ nav a:active {
     color:red;
     text-decoration: underline;
 }
+table
+{
+    border: Solid 2px black;
+}
+tr, td, th
+{
+    border: Solid 2px black;
+}
