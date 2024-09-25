@@ -81,8 +81,15 @@ nav a:active {
 table
 {
     border: Solid 2px black;
+    border-collapse: collapse;
 }
 tr, td, th
 {
     border: Solid 2px black;
+    padding: 3px;
+    width: 100px;
+    text-align: center;
+}
+caption {
+caption-side: top;
 }
