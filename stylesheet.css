@@ -82,6 +82,7 @@ table
 {
     border: Solid 2px black;
     border-collapse: collapse;
+    
 }
 tr, td, th
 {
@@ -90,6 +91,13 @@ tr, td, th
     width: 100px;
     text-align: center;
 }
+
+
+tr, th {
+    background-image: url(blue-diamond-pattern.jpg);
+}
 caption {
 caption-side: top;
+font-weight: bold;
+margin: 3px;
 }
