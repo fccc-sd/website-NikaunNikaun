@@ -40,7 +40,7 @@ h4 {
 header {
     font-style: italic;
     background:azure; 
-    border: solid, medium,  rgb(37, 150, 200);
+    border: solid medium rgb(37, 150, 200);
     
 }
 h5, h6 {
@@ -52,9 +52,7 @@ h5, h6 {
 
 
 img {
-    
     float: left;
-    text-align: bottom;
 }
 ul {
     list-style-image:url(icons8-wave-48.png);
