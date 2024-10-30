@@ -53,17 +53,12 @@ h5, h6 {
 
 img {
     float: left;
-    border-width: thick;
     border-style: solid;
-    border-image: url(picture_frame.png);
+    border-width: thick;
+  border-color: rgb(95, 81, 21);
 }
 ul {
     list-style-image:url(icons8-wave-48.png);
-    
-    
-    
-    
-    
 }
 nav {
    line-height: 2em; 
