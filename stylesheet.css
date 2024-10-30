@@ -111,3 +111,7 @@ caption-side: top;
 font-weight: bold;
 margin: 3px;
 }
+.Stories {
+    background-image: url(oldscroll.jpg);
+    background-repeat: repeat-x;
+}
