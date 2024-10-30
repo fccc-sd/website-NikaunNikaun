@@ -38,9 +38,8 @@ h4 {
 header {
     font-style: italic;
     background:azure; 
-    border-style: ridge;
-    border-color: rgb(40, 62, 110);
-    border-width: thick;
+    border: solid, medium,  rgb(37, 150, 200);
+    
 }
 h5, h6 {
     color:rgb(40, 62, 110);
