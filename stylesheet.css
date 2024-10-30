@@ -55,7 +55,7 @@ img {
     float: left;
     border-style: solid;
     border-width: thick;
-  border-color: rgb(95, 81, 21);
+    border-color: burlywood;
 }
 ul {
     list-style-image:url(icons8-wave-48.png);
