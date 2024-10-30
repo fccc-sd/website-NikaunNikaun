@@ -3,6 +3,7 @@ h2 {
     font-size: 1.5em;
     font-style: italic;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    clear: left;
 }
 
 h1 {
@@ -23,6 +24,7 @@ body {
 }
 p {
     font: 1em 'Times New Roman', Times, serif;
+    clear: left;
 }
 
 .catAppreciation {
@@ -50,10 +52,16 @@ h5, h6 {
 
 
 img {
-    vertical-align:text-bottom
+    
+    float: left;
+    text-align: bottom;
 }
 ul {
     list-style-image:url(icons8-wave-48.png);
+    
+    
+    
+    
     
 }
 nav {
