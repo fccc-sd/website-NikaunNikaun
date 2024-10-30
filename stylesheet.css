@@ -112,6 +112,5 @@ font-weight: bold;
 margin: 3px;
 }
 .Stories {
-    background-image: url(oldscroll.jpg);
-    background-repeat: repeat-x;
+    background: url(oldscroll.jpg) repeat-x fixed;
 }
