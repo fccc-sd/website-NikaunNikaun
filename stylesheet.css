@@ -53,6 +53,8 @@ h5, h6 {
 
 img {
     float: left;
+    border-width: thick;
+    border-style: solid;
     border-image: url(picture_frame.png);
 }
 ul {
