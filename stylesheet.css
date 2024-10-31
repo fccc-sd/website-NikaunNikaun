@@ -111,7 +111,8 @@ caption-side: top;
 font-weight: bold;
 margin: 3px;
 }
-.Stories {
-    background-image: url(oldscroll.jpg); 
+#Stories {
+    background-image: url(torn2.png); 
     background-repeat: repeat-x fixed;
+    
 }
