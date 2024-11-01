@@ -27,7 +27,7 @@ p {
     clear: left;
 }
 
-.catAppreciation {
+.emphasis{
     font-style: italic;
     font-weight: bold;
 }
@@ -113,9 +113,7 @@ font-weight: bold;
 margin: 3px;
 }
 #Stories {
-    background-image: url(Yellow_Sticky_Note..png);
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: inherit;
+    background-image: url(torn2.png); 
+    background-repeat: no-repeat;
     
 }
