@@ -113,7 +113,9 @@ font-weight: bold;
 margin: 3px;
 }
 #Stories {
-    background-image: url(torn2.png); 
-    background-repeat: no-repeat;
+    background-image: url(Yellow_Sticky_Note..png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: inherit;
     
 }
