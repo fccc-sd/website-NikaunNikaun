@@ -29,6 +29,7 @@ p {
 
 .catAppreciation {
     font-style: italic;
+    font-weight: bold;
 }
 h4 {
     color: rgb(40, 62, 110);
@@ -113,6 +114,6 @@ margin: 3px;
 }
 #Stories {
     background-image: url(torn2.png); 
-    background-repeat: repeat-x fixed;
+    background-repeat: no-repeat;
     
 }
