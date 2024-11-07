@@ -119,3 +119,6 @@ margin: 3px;
     background-position: inherit;
     
 }
+fieldset {
+    border: ridge medium rgb(37, 150, 200);
+}
