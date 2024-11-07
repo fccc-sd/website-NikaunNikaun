@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="description" content="A page where you can pretend to order pizza.">
+    <meta name="keywords" content="pizza, order pizza, order, pretend, cooking">
+    <title>Pizza order form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <!--The body contains the displayed content.-->
+    <header>
+        <h1>Order A Pizza</h1>
+        <h4> Except not really, it's pretend.</h4>
+    </header>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Home Page">Home</a>
+                </li>
+                <li>
+                    <a href="page2.html" title="The Second Page"> More</a>
+                </li>
+                <li>
+                    <a href="table.html" title="CCP">CCP</a>
+                </li>
+                <li>
+                    <a href="pizzaorder.html" title="Pizza Order">Get Pizza</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <main>
+        <h2>Surprise!</h2>
+        <p>It turns out this is no ordinary website, you can actually order pizza by filling out the form on this page.
+            (Note: You absolutely cannot, this is just pretend, do not put any of your real informtion on this page.)
+        </p>
+        <h2> Order Form</h2>
+        <fieldset>
+            <br>
+            <h2>Basic Info</h2>
+            <br>
+            <form id="pizza_form" action="my_app.php" method="post">
+                <p> <label for="customer_name">Your Name: </label> <input type="text" name="customer_name"
+                        id="customer_name" autofocus></p> <br>
+                <p> <label for="Address">Your Address: </label> <input type="text" name="Address" id="Address"></p> <br>
+                <P> <label for="telephone">Your Phone Number:</label> <input type="tel" name="telophone" id="telophone">
+                </P>
+                <h2>Choose Your Pizza Size</h2>
+                <p><label for="small">Small</label> <input type="radio" name="small" id="small"></p>
+                <p><label for="medium">Medium</label> <input type="radio" name="medium" id="medium"></p>
+                <p><label for="large">Large</label> <input type="radio" name="large" id="large"></p>
+                <h2>Choose Your Toppings</h2>
+                <p><label for="pepporoni">Pepporoni</label><input type="checkbox" name="pepporoni" id="pepporoni"></p>
+                <p><label for="bacon">Bacon</label><input type="checkbox" name="bacon" id="bacon"></p>
+                <p><label for="sausage">Sausage</label><input type="checkbox" name="sausage" id="sausage"></p>
+                <p><label for="olives">Olives</label><input type="checkbox" name="olives" id="olives"></p>
+                <p><label for="anchovies">Anchovies</label><input type="checkbox" name="anchovies" id="anchovies"></p>
+                <p><label for="pineapple">Pineapple</label><input type="checkbox" name="pineapple" id="pineapple"></p>
+                <br>
+
+                <h2> Extra Notes For the Chef</h2>
+                <p><textarea name="notes" id="notes" cols="30" rows="10"></textarea></p> <br>
+                <p><input id="submit" type="submit" value="Complete Order"></p>
+                <p><input type="reset" id="resetform" value="Reset Order"></p>
+                
+
+            </form>
+        </fieldset>
+        <h5> <em> Other info </em></h5>
+        <p> General info can be found <a href="index.html" title="The home page."> here. </a> </p>
+        <p> I have more to show <a href=page2.html title="more things about me."> here. </a> </p>
+        <p> There's also info on Four County CCP Classes <a href=table.html title="CCP table"> here. </a> </p>
+        <p> I am a Four County student studying under <a href=https://mrgeiger.com/ title="Mr Geiger's site."> Mr.
+                Geiger </a> </p>
+    </main>
+
+    <footer>
+        <h6><em>Copyright &copy; 2024 Nick Fakename </em></h6>
+    </footer>
+</body>
+
+</html>

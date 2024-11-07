@@ -3,6 +3,7 @@ h2 {
     font-size: 1.5em;
     font-style: italic;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    clear: left;
 }
 
 h1 {
@@ -13,6 +14,9 @@ h1 {
     font-size: 2.7em;
     font-weight: bolder;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 10px 5px 5px;
+    margin: 10px;
+
 }
 
 body {
@@ -20,33 +24,101 @@ body {
 }
 p {
     font: 1em 'Times New Roman', Times, serif;
+    clear: left;
 }
-h6 {
-    font-weight: bold;
-}
-section {
-    font-weight: bold;
-}
+
 .catAppreciation {
     font-style: italic;
+    font-weight: bold;
 }
 h4 {
     color: rgb(40, 62, 110);
     text-align: center;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
 }
 header {
     font-style: italic;
-    background-color:azure 
+    background:azure; 
+    border: solid medium rgb(37, 150, 200);
+    
 }
-h5 {
+h5, h6 {
     color:rgb(40, 62, 110);
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    font-weight: bold;
 }
-h6 {
-    color:rgb(40, 62, 110);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
+
+
+img {
+    float: left;
+    border-style: solid;
+    border-width: thick;
+    border-color: burlywood;
+}
+ul {
+    list-style-image:url(icons8-wave-48.png);
+}
+nav {
+   line-height: 2em; 
+   background-color: rgb(71, 187, 223);
+   display: block
+}
+nav li {
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+    font-size: 1.6em;
+    padding-left: 17em
+    
+}
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav a:active {
+    color:red;
+    text-decoration: underline;
+}
+table
+{
+    border: Solid 2px black;
+    border-collapse: collapse;
+    
+}
+tr, td, th
+{
+    border: Solid 2px black;
+    padding: 3px;
+    width: 100px;
+    text-align: center;
+}
+
+
+tr, th {
+    background-image: url(blue-diamond-pattern.jpg);
+}
+caption {
+caption-side: top;
+font-weight: bold;
+margin: 3px;
+}
+#Stories {
+    background-image: url(torn2.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: inherit;
+    
+}
+fieldset {
+    border: ridge medium rgb(37, 150, 200);
 }
